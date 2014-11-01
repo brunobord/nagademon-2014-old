@@ -11,6 +11,8 @@ advanced instant messaging services (Mumble, Teamspeak, Skype, Google Hangout...
 
 You can browse the [Changelog](Changelog.md) to see the history.
 
+**WARNING**: this is still **Work In Progress**, I'll tell you when it's ready.
+
 ----
 
 ## Inspirations
