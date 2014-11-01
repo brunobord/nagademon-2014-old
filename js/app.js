@@ -6,8 +6,10 @@ function getParameterByName(name) {
 }
 
 $(document).ready(function() {
-    var doc = getParameterByName('doc').replace('/', '') || 'rules.md';
-    $.get(doc, function(html) {
-        $('#content').html(marked(html));
+    var md = new Remarkable();
+    var doc = getParameterByName('doc').replace('/', '') || 'overview.md';
+    $.get(doc, function(text) {
+        $('#content').html(md.render(text));
+        $('table').addClass('table');
     });
 })
