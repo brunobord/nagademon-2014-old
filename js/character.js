@@ -11,18 +11,20 @@ $(document).ready(function() {
         $(bar).css({width: width + '%'}).attr('class', '').addClass('progress-bar ' + barClass);
     }
 
-    var querystring = location.search.slice(1);
-    var vars = $.deserialize(querystring);
-    var re = /\+/gi;
-    for (key in vars) {
-        var value = vars[key];
-        var input = $('input[name='+key+']');
-        if (input.attr('type') == 'text') {
-            input.val(value.replace(re, " "));
-        } else {
-            input.val(value);
-        }
-    };
+    if (location.search !== "") {
+        var querystring = location.search.slice(1);
+        var vars = $.deserialize(querystring);
+        var re = /\+/gi;
+        for (key in vars) {
+            var value = vars[key];
+            var input = $('input[name='+key+']');
+            if (input.attr('type') == 'text') {
+                input.val(value.replace(re, " "));
+            } else {
+                input.val(value);
+            }
+        };
+    }
     progressBarUpdate('#progressbar-network', 'input[name=gauge-network]', 6.0);
 
     $('form input').change(function() {
