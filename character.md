@@ -45,6 +45,12 @@ Level | Status
 5     | you can reach parts of the WWW. Sometimes you'll only have half of the page, no image or no text. VoIP would work, but no video yet.
 6     | You have full access to what was once the Internet. VoIP or video chat is working, as long as the person you want to talk to is still alive.
 
+----
+
+You may want to fill [your character sheet](character.html)
+
+----
+
 ## Basic moves
 
 ### Fiddling with your network
