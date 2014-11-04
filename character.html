@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NaGaDeMon 2014</title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<style>
+@media (min-width: 768px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+.footer {
+	margin-top: 19px;
+	padding-top: 19px;
+	color: #777;
+	border-top: 1px solid #e5e5e5;
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h2>You are r00t</h2>
+	</div>
+	<div id="content">
+
+		<form class="form-horizontal" role="form">
+
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="input-nickname" class="col-md-4 control-label">Nickname</label>
+					<div class="col-md-8"><input type="text" class="form-control" name="nickname" id="input-nickname" placeholder="Nickname"></div>
+				</div>
+				<div class="form-group">
+					<label for="input-name" class="col-md-4 control-label">Real name</label>
+					<div class="col-md-8"><input type="text" class="form-control" name="name" id="input-name" placeholder="Real name"></div>
+				</div>
+				<div class="form-group">
+					<label for="input-uptime" class="col-md-4 control-label">Uptime</label>
+					<div class="col-md-8"><input type="number" class="form-control" name="uptime" id="input-uptime" placeholder="I'm living for..."></div>
+				</div>
+				<div class="form-group">
+					<label for="input-os" class="col-md-4 control-label"><acronym>OS</acronym> of choice</label>
+					<div class="col-md-8"><input type="text" class="form-control" name="os" id="input-os" placeholder="Operating system"></div>
+				</div>
+				<div class="form-group">
+					<label for="input-language" class="col-md-4 control-label">Script language</label>
+					<div class="col-md-8"><input type="text" class="form-control" name="language" id="input-language" placeholder="The one I'm comfortable with"></div>
+				</div>
+				<div class="form-group">
+					<label for="input-shirt" class="col-md-4 control-label">Today I'm wearing</label>
+					<div class="col-md-8"><input type="text" class="form-control" name="shirt" id="input-shirt" placeholder="This great geeky t-shirt"></div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="input-job" class="col-md-4 control-label">I work as...</label>
+					<div class="col-md-8"><input type="text" class="form-control" name="job" id="input-job" placeholder="Job title"></div>
+				</div>
+				<div class="form-group">
+					<label for="input-org" class="col-md-4 control-label">For...</label>
+					<div class="col-md-8"><input type="text" class="form-control" name="org" id="input-org" placeholder="Company / Organization"></div>
+				</div>
+				<div class="form-group">
+					<label for="input-location" class="col-md-4 control-label">Located in...</label>
+					<div class="col-md-8"><input type="text" class="form-control" name="location" id="input-location" placeholder="Location"></div>
+				</div>
+				<div class="form-group">
+					<label for="input-tz" class="col-md-4 control-label">My timezone is</label>
+					<div class="col-md-8"><input type="text" class="form-control" name="tz" id="input-location" placeholder="UTC?"></div>
+				</div>
+			</div>
+		</div> <!-- row -->
+
+		<div class="row">
+			<div class="col-md-3">
+			<label for="input-network">Network</label><input type="number" id="input-network" name="network" class="form-control" placeholder="network">
+			</div>
+			<div class="col-md-3">
+			<label for="input-software">Software</label><input type="number" id="input-software" name="software" class="form-control" placeholder="software">
+			</div>
+			<div class="col-md-3">
+			<label for="input-hardware">Hardware</label><input type="number" id="input-hardware" name="hardware" class="form-control" placeholder="hardware">
+			</div>
+			<div class="col-md-3">
+			<label for="input-cool">Cool</label><input type="number" id="input-cool" name="cool" class="form-control" placeholder="cool">
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="row">
+			<div class="col-md-2">
+				<label for="input-gauge-network">Network status</label><input type="number" id="input-gauge-network" name="gauge-network" class="form-control" value="1">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="progress">
+					<div class="progress-bar" id="progressbar-network" role="progressbar" style="width: 16.66666666%"></div>
+				</div>
+			</div>
+		</div>
+
+	</div> <!-- content -->
+
+	<div class="footer">
+		<p>This Character sheet is made for this <strong>RPG with no name</strong>.
+			License: <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a>
+		</p>
+	</div>
+
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/jquery.deserialize.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/character.js"></script>
+</body>
+</html>
