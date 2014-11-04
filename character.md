@@ -45,9 +45,18 @@ Level | Status
 5     | you can reach parts of the WWW. Sometimes you'll only have half of the page, no image or no text. VoIP would work, but no video yet.
 6     | You have full access to what was once the Internet. VoIP or video chat is working, as long as the person you want to talk to is still alive.
 
-----
+## Character sheet
 
-You may want to fill [your character sheet](character.html)
+You may want to fill [your character sheet](character.html). You can print
+it out or leave it like that, as a simple HTML form.
+
+You may notice that the URL query string on this web page is changing as you're
+changing its values. If you want, you can "save" your character sheet by saving
+the complete URL on a scratchapd and you can communicate it via the chat or mail
+or save it for yourself, if you're going from one machine to another.
+
+Here's an example [character sheet](character.html?nickname=haXX0r&name=John+Doe&uptime=23&os=OpenBSD&language=Perl&shirt=use+perl&job=System+administrator&org=US+Govt+(Embassy)&location=Paris%2C+France&tz=CEST&network=2&software=1&hardware=-1&cool=0&gauge-network=1).
+
 
 ----
 
