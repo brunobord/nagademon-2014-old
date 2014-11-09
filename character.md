@@ -52,6 +52,7 @@ decide to untick one of your flags, and you're losing its features.
 Flag      | Effect
 --------- | -------------------------------------------------------------------
 Security  | "When your system is under attack" gets a +1 Bonus
+Backup    | If the GM is playing "Data is lost" on you, simply "Operate on the system" to restore it.
 
 
 ## Character sheet
@@ -84,10 +85,11 @@ to ``roll+software`` or ``roll+hardware``.
 * On 7-9: You're succeeding in putting things together. Status quo.
 * On 10+: Your ``Bandwidth`` gauge is going up by one level (max 6).
 
-### Operate on a system
+### Operate on the system
 
 When you need to **operate on a system** to perform a software task (scripting,
-soft rebooting, shutting down / restart a service, etc), ``roll+software``.
+soft rebooting, shutting down / restart a service, restore backups, etc),
+``roll+software``.
 
 * On 6-: You're breaking things. The GM is picking one *Issue*.
 * On 7-9: It's working fine, does the job.
@@ -134,3 +136,14 @@ it's off. ``roll+software``:
 * On 10+: Your system is way more secure. You check the ``Security`` flag, and
   as soon as you're under attack, you can get a reroll if your Move result is
   not satisfying,
+
+### Backup your data
+
+Use this move to setup backups of your precious data. If you succeed, you can
+check the ``Backup`` flag. This bonus will stay until the GM tells you it's gone.
+
+* On 6-: Your system is not backed up. The GM is picking one *Issue*.
+* On 7-9: Your system has backups. Check the ``Backup`` flag
+* On 10+: Your system has a great backup set. You check the ``Backup`` flag, and
+  if the GM plays the "Data is lost" Move on you, you don't have to roll to
+  restore it,

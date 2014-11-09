@@ -5,7 +5,7 @@
 * Found a name for the game: it'll be "When Sysadmins Rolled The Dice",
 * Now it's a 3-stats game. Network now depends on software and hardware stats,
 * Cleaned up and improved basic moves,
-* Introducing flags and extra moves,
+* Introducing flags and extra moves (Security, Backup),
 
 ## 2014-11-04
 
