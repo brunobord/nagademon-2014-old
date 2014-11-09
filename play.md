@@ -2,8 +2,8 @@
 
 ## Rolling dice
 
-Rolling dice means you'll have to roll two six-sided dice, add them with the appropriate
-stat to see the result. Usually, there are three possibilities:
+Rolling dice means you'll have to roll two six-sided dice, add them with the
+appropriate stat to see the result. Usually, there are three possibilities:
 
 * 6 or lower: bad things happen, it's a failure,
 * between 7 and 9: it's fine, but there's a cost, something is going wrong,

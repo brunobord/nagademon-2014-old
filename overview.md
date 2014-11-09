@@ -1,15 +1,18 @@
-# Overview
+# When Sysadmins Rolled The Dice
 
 ```irc
 04:03 < cor3dumped> WTF is going on? can I get some information about this?
 ```
 
-This is a role-playing-game, destined to be played online, using text-based chat
-tools (IRC) or more elaborated programs, with VoIP or real-time video chat
-(Skype, Mumble, Google Hangout).
+"When Sysadmins Rolled The Dice" is a role-playing-game, destined to be played
+online, using text-based chat tools (IRC) or more elaborated programs, with VoIP
+or real-time video chat (Skype, Mumble, Google Hangout).
 
 You may try to play "In Real Life", too ; but to get the best immersion, playing
 on IRC is probably the best option.
+
+That's the reason why I'm talking about a "laptop role-playing game" - it's not
+properly speaking a tabletop RPG, and it's definitely not a video game.
 
 In this game players will likely play the role of sysadmins or IT workers, or
 just people who can enter datacenters.

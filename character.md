@@ -1,8 +1,8 @@
 # Your character
 
-You're either **male or female**. You can be the young Padawan or the old BOFH.
-Whatever your **uptime** is. You have an Internet **nickname** ; most people
-don't even know your **real name**.
+You're either **male or female**. You can be the young *Padawan* or the old
+*BOFH*. Whatever your **uptime** is. You have an Internet **nickname** ; most
+people don't even know your **real name**.
 
 Frankly, nobody (except you) cares about this.
 
@@ -56,7 +56,6 @@ the complete URL on a scratchapd and you can communicate it via the chat or mail
 or save it for yourself, if you're going from one machine to another.
 
 Here's an example [character sheet](character.html?nickname=haXX0r&name=John+Doe&uptime=23&os=OpenBSD&language=Perl&shirt=use+perl&job=System+administrator&org=US+Govt+(Embassy)&location=Paris%2C+France&tz=CEST&network=2&software=1&hardware=-1&cool=0&gauge-network=1).
-
 
 ----
 

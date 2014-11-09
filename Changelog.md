@@ -1,5 +1,9 @@
 # Changelog
 
+## 2014-11-09
+
+* Found a name for the game: it'll be "When Sysadmins Rolled The Dice"
+
 ## 2014-11-04
 
 * Draft for character sheet (including style & JS)
