@@ -18,8 +18,10 @@ $(document).ready(function() {
         for (key in vars) {
             var value = vars[key];
             var input = $('input[name='+key+']');
-            if (input.attr('type') == 'text') {
+            if (input.attr('type') === 'text') {
                 input.val(value.replace(re, " "));
+            } else if (input.attr('type') === 'checkbox') {
+                input.prop('checked', value === 'on');
             } else {
                 input.val(value);
             }

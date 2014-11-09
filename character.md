@@ -43,6 +43,17 @@ Level | Status
 5     | you can reach parts of the WWW. Sometimes you'll only have half of the page, no image or no text. VoIP would work, but no video yet.
 6     | You have full access to what was once the Internet. VoIP or video chat is working, as long as the person you want to talk to is still alive.
 
+## Flags
+
+By using some extra moves, you can tick one of your flags on. Each flag
+represents an improved state of your system. When you fail a roll, the GM can
+decide to untick one of your flags, and you're losing its features.
+
+Flag      | Effect
+--------- | -------------------------------------------------------------------
+Security  | "When your system is under attack" gets a +1 Bonus
+
+
 ## Character sheet
 
 You may want to fill [your character sheet](character.html). You can print
@@ -112,4 +123,14 @@ DDOS'ed, Trojan, Malware, unexpected intrusion, massive data stealing...
 Each character can pick one of these Extra Moves, and only one. It represents
 a field of expertise of your character, that can help you in your tasks.
 
-TODO
+### Secure the system
+
+Use this move when you want to improve security on your system. If you succeed,
+you can check the ``Security`` flag. This bonus will stay until the GM tells you
+it's off. ``roll+software``:
+
+* On 6-: Your system is exploitable. The GM is picking one *Issue*.
+* On 7-9: Your system is more secure. Check the ``Security`` flag
+* On 10+: Your system is way more secure. You check the ``Security`` flag, and
+  as soon as you're under attack, you can get a reroll if your Move result is
+  not satisfying,
