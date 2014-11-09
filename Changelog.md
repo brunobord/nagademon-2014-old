@@ -2,7 +2,9 @@
 
 ## 2014-11-09
 
-* Found a name for the game: it'll be "When Sysadmins Rolled The Dice"
+* Found a name for the game: it'll be "When Sysadmins Rolled The Dice",
+* Now it's a 3-stats game. Network now depends on software and hardware stats,
+* Cleaned up and improved basic moves,
 
 ## 2014-11-04
 

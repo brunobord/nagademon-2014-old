@@ -9,6 +9,18 @@ appropriate stat to see the result. Usually, there are three possibilities:
 * between 7 and 9: it's fine, but there's a cost, something is going wrong,
 * over 10: you succeed and what you want to happen is happening.
 
+### Issues
+
+When something bad is happening, the GM will tell you which issues you're
+facing, and how bad things are happening. The GM will probably pick amongst
+this list:
+
+* Your ``Bandwidth`` gauge is going down by one point (min is 0),
+* There's a hardware failure somewhere,
+* There's a piece of software going crazy (memory leaks, abnormal high load),
+* (Important) data is lost,
+
+
 ## Bandwidth and communication channels
 
 At the beginning of the game, every character has a ``Bandwidth`` gauge of 1.

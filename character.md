@@ -16,10 +16,8 @@ important is your **timezone**.
 
 ## Stats
 
-You have 4 stats:
+You have 3 stats:
 
-* ``network``: how you are skilled in handling network failures, get through
-  stubborn routers and get your way on the Internets,
 * ``software``: how to crack a protected system, and encrypted data flow. How to
   deal with software issues, write a program to work things out using your
   favorite scripting language,
@@ -29,7 +27,7 @@ You have 4 stats:
   online or in real life. The cooler you are, the better you'll manage incoming
   annoyances,
 
-Spread your stats to +2, +1, 0, -1.
+Spread your stats to +2, 0, -1.
 
 ## Gauges
 
@@ -61,28 +59,46 @@ Here's an example [character sheet](character.html?nickname=haXX0r&name=John+Doe
 
 ## Basic moves
 
+When you're performing a *Move*, the GM is asking you to roll two six-sided dice,
+add the appropriate stat and see what happens.
+
 ### Fiddling with your network
 
-When you're **Fiddling with your network**, ``roll+network``.
+Depending on what problems you're facing in your datacenter, the GM may ask you
+to ``roll+software`` or ``roll+hardware``.
 
-* On 6-: Network condition is worsening, the GM is picking one option among the
-  following.
+* On 6-: Network condition is worsening, the GM is picking one *Issue*.
 * On 7-9: You're succeeding in putting things together. Status quo.
 * On 10+: Your ``Bandwidth`` gauge is going up by one level (max 6).
-
-Issues:
-
-* Your ``Bandwidth`` gauge is going down by one point (min is 0),
-* There's a hardware failure somewhere,
-* There's a piece of software going crazy (memory leaks, abnormal high load),
 
 ### Operate on a system
 
 When you need to **operate on a system** to perform a software task (scripting,
 soft rebooting, shutting down / restart a service, etc), ``roll+software``.
 
-* On 6-: You're breaking things. The GM is picking one option among the
-  following.
+* On 6-: You're breaking things. The GM is picking one *Issue*.
 * On 7-9: It's working fine, does the job.
 * On 10+: not only it's working, but you have fixed more bugs, improved
-  performances, found bits of CPU/RAM to recycle,
+  performances, found bits of CPU/RAM to recycle. This software will care about
+  the hardware,
+
+### Solve hardware problems
+
+If you need ot **solve a hardware problem** (box refusing to boot, network wires
+to plug / setup, keyboard failure, use a physical tool - a screwdriver),
+``roll+hardware``.
+
+* On 6-: You're breaking things. The GM is picking one *Issue*.
+* On 7-9: It's working fine, does the job.
+* On 10+: not only it's working, but it looks more robust and solid than the
+  last time. Using this hardware will please the software,
+
+### When your system is under attack
+
+DDOS'ed, Trojan, Malware, unexpected intrusion, massive data stealing...
+``roll+cool`` to find out what's going on, and how you can stop this:
+
+* On 6-: Your system is dying. The GM is picking one *Issue*.
+* On 7-9: You can stop the incident, but the threat is still here.
+* On 10+: not only you've stopped the incident, but you know a bit more about
+  its source, its causes, and a few clues on how to prevent it next time,
