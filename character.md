@@ -4,8 +4,6 @@ You're either **male or female**. You can be the young *Padawan* or the old
 *BOFH*. Whatever your **uptime** is. You have an Internet **nickname** ; most
 people don't even know your **real name**.
 
-Frankly, nobody (except you) cares about this.
-
 You're a system or network administrator. As long as the network is up and the
 backups are done, you can wear whatever **t-shirt** you want, run whichever
 **Operating System** you need, write scripts in your **language** of choice,
