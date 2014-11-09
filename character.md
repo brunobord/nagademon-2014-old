@@ -31,6 +31,8 @@ Spread your stats to +2, 0, -1.
 
 ### Bandwidth
 
+At the beginning of the game, your ``Bandwidth`` starts at 1.
+
 Level | Status
 ----- | ----------------------------------------------------------------------
 0     | no bandwidth, no running system, you're deaf, dumb and blind,
@@ -56,6 +58,8 @@ Here's an example [character sheet](character.html?nickname=haXX0r&name=John+Doe
 ----
 
 ## Basic moves
+
+Every character has access to these Basic Moves.
 
 When you're performing a *Move*, the GM is asking you to roll two six-sided dice,
 add the appropriate stat and see what happens.
@@ -100,3 +104,12 @@ DDOS'ed, Trojan, Malware, unexpected intrusion, massive data stealing...
 * On 7-9: You can stop the incident, but the threat is still here.
 * On 10+: not only you've stopped the incident, but you know a bit more about
   its source, its causes, and a few clues on how to prevent it next time,
+
+-----
+
+## Extra moves
+
+Each character can pick one of these Extra Moves, and only one. It represents
+a field of expertise of your character, that can help you in your tasks.
+
+TODO
