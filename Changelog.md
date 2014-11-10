@@ -1,5 +1,9 @@
 # Changelog
 
+## 2014-11-10
+
+* Redundancy flag,
+
 ## 2014-11-09
 
 * Found a name for the game: it'll be "When Sysadmins Rolled The Dice",

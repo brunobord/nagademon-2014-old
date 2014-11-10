@@ -49,10 +49,11 @@ By using some extra moves, you can tick one of your flags on. Each flag
 represents an improved state of your system. When you fail a roll, the GM can
 decide to untick one of your flags, and you're losing its features.
 
-Flag      | Effect
---------- | -------------------------------------------------------------------
-Security  | "When your system is under attack" gets a +1 Bonus
-Backup    | If the GM is playing "Data is lost" on you, simply "Operate on the system" to restore it.
+Flag       | Effect
+---------- | -------------------------------------------------------------------
+Security   | "When your system is under attack" gets a +1 Bonus
+Backup     | If the GM is playing "Data is lost" on you, simply "Operate on the system" to restore it.
+Redundancy | If the GM is playing "Hardware failure" on you, simply "Solve hardware problems" to ignore the failure
 
 
 ## Character sheet
@@ -143,7 +144,20 @@ Use this move to setup backups of your precious data. If you succeed, you can
 check the ``Backup`` flag. This bonus will stay until the GM tells you it's gone.
 
 * On 6-: Your system is not backed up. The GM is picking one *Issue*.
-* On 7-9: Your system has backups. Check the ``Backup`` flag
+* On 7-9: Your system has backups. Check the ``Backup`` flag.
 * On 10+: Your system has a great backup set. You check the ``Backup`` flag, and
   if the GM plays the "Data is lost" Move on you, you don't have to roll to
   restore it,
+
+
+### Setting up redundant servers
+
+Use this move to add up a redundant system on some part of your infrastructure.
+If you succeed, check the ``Redundancy`` flag. The bonus will stay until the GM
+tells you to uncheck it. ``roll+hardware``:
+
+* On 6-: No redundancy. The GM is picking one *Issue*.
+* On 7-9: Redundant system is set. Check the ``Redundancy`` flag.
+* On 10+: Fault-tolerant redundant system. You check the ``Redundancy`` flag,
+  and if the GM plays "Hardaware failure" on you, you don't have to roll to
+  restore it.
