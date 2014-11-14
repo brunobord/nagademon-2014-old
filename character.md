@@ -74,16 +74,17 @@ Here's an example [character sheet](character.html?nickname=haXX0r&name=John+Doe
 
 Every character has access to these Basic Moves.
 
-When you're performing a *Move*, the GM is asking you to roll two six-sided dice,
-add the appropriate stat and see what happens.
+When you're performing a *Move*, the GM is asking you to roll two six-sided
+dice, add the appropriate stat and see what happens.
 
 ### Fiddling with your network
 
 Depending on what problems you're facing in your datacenter, the GM may ask you
 to ``roll+software`` or ``roll+hardware``.
 
-* On 6-: Network condition is worsening, the GM is picking one *Issue*.
-* On 7-9: You're succeeding in putting things together. Status quo.
+* On 6-: Network condition is worsening, the GM is picking one *Major Issue*.
+* On 7-9: You're succeeding in putting things together, but there's a cost.
+  The GM picks one *Minor Issue*.
 * On 10+: Your ``Bandwidth`` gauge is going up by one level (max 6).
 
 ### Operate on the system
@@ -92,11 +93,10 @@ When you need to **operate on a system** to perform a software task (scripting,
 soft rebooting, shutting down / restart a service, restore backups, etc),
 ``roll+software``.
 
-* On 6-: You're breaking things. The GM is picking one *Issue*.
-* On 7-9: It's working fine, does the job.
-* On 10+: not only it's working, but you have fixed more bugs, improved
-  performances, found bits of CPU/RAM to recycle. This software will care about
-  the hardware,
+* On 6-: You're breaking things, the GM is picking one *Major Issue*.
+* On 7-9: It's working fine, does the job, but there's a cost. The GM picks
+  one *Minor Issue*.
+* On 10+: Work is done, without a hiccup.
 
 ### Solve hardware problems
 
@@ -104,20 +104,20 @@ If you need ot **solve a hardware problem** (box refusing to boot, network wires
 to plug / setup, keyboard failure, use a physical tool - a screwdriver),
 ``roll+hardware``.
 
-* On 6-: You're breaking things. The GM is picking one *Issue*.
-* On 7-9: It's working fine, does the job.
-* On 10+: not only it's working, but it looks more robust and solid than the
-  last time. Using this hardware will please the software,
+* On 6-: You're breaking things, the GM is picking one *Major Issue*.
+* On 7-9: It's working fine, does the job, but there's a cost. The GM picks
+  one *Minor Issue*.
+* On 10+: Work is done, without a bug.
 
 ### When your system is under attack
 
 DDOS'ed, Trojan, Malware, unexpected intrusion, massive data stealing...
 ``roll+cool`` to find out what's going on, and how you can stop this:
 
-* On 6-: Your system is dying. The GM is picking one *Issue*.
-* On 7-9: You can stop the incident, but the threat is still here.
-* On 10+: not only you've stopped the incident, but you know a bit more about
-  its source, its causes, and a few clues on how to prevent it next time,
+* On 6-: Your system is dying. The GM is picking one *Major Issue*.
+* On 7-9: You can stop the incident, but the threat is still here. The GM picks
+  one *Minor Issue*.
+* On 10+: You've stopped the attack, it should be working normally now.
 
 -----
 
@@ -133,7 +133,7 @@ you can check the ``Security`` flag. This bonus will stay until the GM tells you
 it's off. ``roll+software``:
 
 * On 6-: Your system is exploitable. The GM is picking one *Issue*.
-* On 7-9: Your system is more secure. Check the ``Security`` flag
+* On 7-9: Your system is more secure. Check the ``Security`` flag.
 * On 10+: Your system is way more secure. You check the ``Security`` flag, and
   as soon as you're under attack, you can get a reroll if your Move result is
   not satisfying,

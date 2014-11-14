@@ -1,5 +1,9 @@
 # Changelog
 
+## 2014-11-14
+
+* important changes to failure results and working on Major / Minor Issues.
+
 ## 2014-11-10
 
 * Redundancy flag,

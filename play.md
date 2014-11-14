@@ -9,16 +9,35 @@ appropriate stat to see the result. Usually, there are three possibilities:
 * between 7 and 9: it's fine, but there's a cost, something is going wrong,
 * over 10: you succeed and what you want to happen is happening.
 
-### Issues
+### Minor Issues
+
+These issues will occur when you've managed to perform your action, but
+something is going to nag you, in a way. A little pain in the neck, a mosquito
+around you ears...
+
+* Your ``Bandwidth`` gauge is going down by one point (min is 0),
+* There's a hardware failure somewhere, one of your machines is overheating,
+* Keyboard or mice not responding, needing to be replaced or fixed,
+* There's a piece of software going crazy (memory leaks, abnormal high load),
+* Data is lost,
+* Someone is asking you (online or in real life) a stupid / absurd / annoying
+  / complicated question,
+* Someone is asking you for help in real life (carry stuff, for example),
+* Meeting time,
+
+### Major Issues
 
 When something bad is happening, the GM will tell you which issues you're
 facing, and how bad things are happening. The GM will probably pick amongst
 this list:
 
-* Your ``Bandwidth`` gauge is going down by one point (min is 0),
-* There's a hardware failure somewhere,
+* Your ``Bandwidth`` gauge is going down by two point (min is 0),
+* There's a massive hardware failure somewhere, several machines are affected,
+* A/C is broken,
+* Fire alarm,
+* One or more screens become blank,
 * There's a piece of software going crazy (memory leaks, abnormal high load),
-* (Important) data is lost,
+* Important data is lost,
 
 
 ## Bandwidth and communication channels
